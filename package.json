@@ -1,0 +1,22 @@
+{
+  "name": "hebrew-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badic2005/hebrew-back.git"
+  },
+  "author": "Vadim Gurevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badic2005/hebrew-back/issues"
+  },
+  "homepage": "https://github.com/badic2005/hebrew-back#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
