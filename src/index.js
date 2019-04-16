@@ -4,7 +4,7 @@ import WordsDAO from "./dao/wordsDAO";
 
 const port = process.env.PORT || 8000;
 
-MongoClient.connect(process.env.HEBREW_DB_URI, { useNewUrlParser: true })
+MongoClient.connect(process.env.MONGODB_URI, { useNewUrlParser: true })
   .catch(err => {
     console.error(err.stack);
     process.exit(1);
