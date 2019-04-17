@@ -1,9 +1,11 @@
 {
   "presets": [
-    "env",
-    "stage-1"
-  ],
-  "plugins": [
-    "transform-runtime"
+    ["@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ]
   ]
 }
